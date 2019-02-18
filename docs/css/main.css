@@ -1,0 +1,282 @@
+@charset "utf-8";
+body{
+	font-size:14px;
+	min-width: 1200px;
+	font-family: 'Microsoft YaHei', '\5FAE\8F6F\96C5\9ED1', 'SimHei', '\9ED1\4F53', 'LiHei Pro Medium';
+}
+input,button,select{
+	font-family: 'Microsoft YaHei', '\5FAE\8F6F\96C5\9ED1', 'SimHei', '\9ED1\4F53', 'LiHei Pro Medium';
+}
+.bg_1{
+	background-color: #6f5497;
+}
+.bg_2{
+	background-color: #388eb9;
+}
+.bg_3{
+	background-color: #2fa67b;
+}
+.bg_4{
+	background-color: #1d69ab;
+}
+.bg_5{
+	background-color: #52af54;
+}
+.bg_6{
+	background-color: #cb4449;
+}
+.bg_7{
+	background-color: #1abc9c;
+}
+.bg_8{
+	background-color: #6d3353;
+}
+.bg{
+	height:18em;
+}
+.bg_gray{
+	background-color: #444;
+}
+.m{
+	max-width: 1200px;
+	margin:0 auto;
+}
+.header{
+	background-color: #444;
+}
+.head_box{
+	padding:10em 0;
+	text-align: center;
+	color: #fff;
+}
+.head_ico{
+	width:10em;
+	height:10em;
+	max-width: 145px;
+	max-height: 145px;
+	margin: 0 auto;
+	border:solid 1px #ccc;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+}
+.head_box strong{
+	margin:.5em 0 .2em;
+	font-size: 2em;
+	display: block;
+}
+.head_box em{
+	margin-bottom:.5em;
+	font-size: 1em;
+	display: block;
+}
+.head_box hr{
+	height: 3px;
+	background-color: #fff;
+	width:2em;
+	display: inline-block;
+	text-align: center;
+	margin:1em;
+}
+.skill span{
+	display: inline-block;
+	width: 4em;
+	height: 4em;
+	line-height: 4em;
+	border: 2px solid #fff;
+	font-size: .75em;
+	border-radius: 100%;
+	overflow: hidden;
+	margin: 0 .5em;
+}
+.m h1{
+	font-size: 2em;
+	font-weight: normal;
+	margin: .5em 0 1em;
+}
+.app_l{
+	border:solid 1px #ccc;
+	width:22%;
+	margin:0 0 1em 2.3%;
+	max-width: 280px;
+	max-height: 280px;
+	float: left;
+}
+.app_l .txt{
+	text-align: center;
+}
+.app_l h2{
+	font-size: 2em;
+	color: #fff;
+	border-bottom: solid 2px #fff;
+	padding: 0 1em .4em;
+}
+.app_l .txt p{
+	color:#333333;
+	margin-top:.5em;
+	text-shadow: -1px -1px 0px #aaa;
+}
+.header,.me,.footer{
+	color:#eee;
+	text-shadow: 1px 2px 1px #000;
+}
+.about_me{
+	width:40%;
+	margin-right:4em;
+}
+.about_txt p{
+	margin-bottom: 1em;
+	line-height: 1.6em;
+	text-indent: 2em;
+}
+.work_history{
+	margin-right:4em;
+}
+.work_txt{
+	margin-bottom: 1em;
+	padding-bottom:1em;
+	border-bottom: dotted 1px #eee;
+}
+.work_txt h2,.it_language h2{
+	font-weight: normal;
+	font-size:1.1em;
+	margin-bottom: .5em;
+}
+.work_txt .fa{
+	margin-right:1em;
+}
+.work_txt .fa-clock-o{
+	font-size: 1.3em;
+	margin-right:.7em;
+}
+section .m{
+	padding:3em 0;
+}
+.it_language h2{
+	margin-bottom: 0;
+}
+.it_language .list{
+	margin-bottom:1em;
+}
+.it_language .list p{
+	color: #dec857;
+}
+.ido h1{
+	text-align: center;
+	margin-bottom:2em;
+}
+.I_do .list{
+	width:22%;
+	margin:0 0 3em 2.3%;
+	max-width: 280px;
+}
+.I_do .list .fa{
+	font-size:2em;
+	margin-bottom: .5em;
+}
+.I_do .list h2{
+	font-size: 1.2em;
+	margin-bottom: .5em;
+}
+
+.footer{
+	padding:3em 0 5em;
+	color: #fff;
+}
+.footer h1{
+	text-align: center;
+}
+.footer p i{
+	margin-right: .5em;
+}
+
+/*--3d样式（如果支持）--*/
+
+.csstransforms3d .details_3d_view{
+	position:relative;
+	width:233px;
+	height:198px;
+
+	-webkit-transform-style: preserve-3d;
+	-webkit-transition: -webkit-transform 800ms;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translate3d(0px, 0px, 0px) rotate3d(0, 1, 0, 0deg);
+
+	-moz-transform-style: preserve-3d;
+	-moz-transition: -moz-transform 800ms;
+	-moz-backface-visibility: hidden;
+	-moz-transform: translate3d(0px, 0px, 0px) rotate3d(0, 1, 0, 0deg);
+
+	-o-transform-style: preserve-3d;
+	-o-transition: -o-transform 800ms;
+	-o-backface-visibility: hidden;
+	-o-transform: translate3d(0px, 0px, 0px) rotate3d(0, 1, 0, 0deg);
+
+	-ms-transform-style: preserve-3d;
+	-ms-transition: -ms-transform 800ms;
+	-ms-backface-visibility: hidden;
+	-ms-transform: translate3d(0px, 0px,0px) rotate3d(0, 1, 0, 0deg);
+
+	transform-style: preserve-3d;
+	transition: -webkit-transform 800ms;
+	backface-visibility: hidden;
+	transform: translate3d(0px, 0px, 0px) rotate3d(0, 1, 0, 0deg);
+}
+
+.csstransforms3d .details_3d_front{
+	position: absolute;
+	z-index:101;
+	-webkit-backface-visibility:hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.csstransforms3d .details_3d_versa{
+	position:absolute;
+	z-index:100;
+	-webkit-backface-visibility:hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform: translate3d(0px, 0px, 1px) rotate3d(0, 1, 0, 180deg);
+	-moz-transform: translate3d(0px, 0px, 1px) rotate3d(0, 1, 0, 180deg);
+	-o-transform: translate3d(0px, 0px, 1px) rotate3d(0, 1, 0, 180deg);
+	-ms-transform: translate3d(0px, 0px, 1px) rotate3d(0, 1, 0, 180deg);
+	transform: translate3d(0px, 0px, 1px) rotate3d(0, 1, 0, 180deg);
+}
+.no-preserve3d .details_3d_front{
+	-webkit-transition: -webkit-transform 600ms;
+	-moz-transition: -moz-transform 600ms;
+	-o-transition: -o-transform 600ms;
+	-ms-transition: -ms-transform 600ms;
+	transition: -ms-transform 600ms;
+	-webkit-transform: translate3d(0px, 0px, 1px) rotate3d(0, 1, 0, 0deg);
+	-moz-transform: translate3d(0px, 0px, 1px) rotate3d(0, 1, 0, 0deg);
+	-o-transform: translate3d(0px, 0px, 1px) rotate3d(0, 1, 0, 0deg);
+	-ms-transform: translate3d(0px, 0px, 1px) rotate3d(0, 1, 0, 0deg);
+	transform: translate3d(0px, 0px, 1px) rotate3d(0, 1, 0, 0deg);
+}
+.no-preserve3d .details_3d_versa{
+	display:block;
+	-webkit-transition: -webkit-transform 600ms;
+	-moz-transition: -moz-transform 600ms;
+	-o-transition: -o-transform 600ms;
+	-ms-transition: -ms-transform 600ms;
+	transition: -ms-transform 600ms;
+	-webkit-transform: translate3d(0px, 0px, 1px) rotate3d(0, 1, 0, 90deg);
+	-moz-transform: translate3d(0px, 0px, 1px) rotate3d(0, 1, 0, 90deg);
+	-o-transform: translate3d(0px, 0px, 1px) rotate3d(0, 1, 0, 90deg);
+	-ms-transform: translate3d(0px, 0px, 1px) rotate3d(0, 1, 0, 90deg);
+	transform: translate3d(0px, 0px, 1px) rotate3d(0, 1, 0, 90deg);
+}
+.details_3d_versa{
+	background:url(../images/loading_small.gif) no-repeat center center #f2f2f2;
+}
+.details_3d_front{
+	background-color:#fff;
+}
+.csstransforms3d .details_3d_front{
+	z-index:100;
+}
